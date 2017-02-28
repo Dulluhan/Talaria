@@ -1,0 +1,19 @@
+
+# The differential equation is
+
+x' = y 
+
+y' = U-M*sin(x)/I-y*B/I
+
+# Specify an initial value for x
+
+init x=0,y=0
+par B=0.0001, I=0.0071, M=0.6377, U=0
+
+# Indicate that s and r are parameters and assign a value to each
+# (the values can be changed later at the terminal)
+
+
+# Change some XPP internal parameters from their default values
+
+done
